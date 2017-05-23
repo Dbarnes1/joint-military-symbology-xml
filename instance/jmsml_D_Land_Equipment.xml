@@ -259,7 +259,7 @@
             </EntitySubType>
           </EntitySubTypes>
         </EntityType>
-        <EntityType ID="AIR_DEFENSE_MISSILE_LAUNCHER" Label="Air Defense Missile Launcher" LabelAlias="ADML" Graphic="15111100.svg" Icon="FULL_OCTAGON">
+        <EntityType ID="AIR_DEFENSE_MISSILE_LAUNCHER" Label="Air Defense Missile Launcher" Graphic="15111100.svg" Icon="FULL_OCTAGON">
           <EntityTypeCode>
             <DigitOne>1</DigitOne>
             <DigitTwo>1</DigitTwo>
@@ -271,13 +271,13 @@
                 <DigitTwo>1</DigitTwo>
               </EntitySubTypeCode>
             </EntitySubType>
-            <EntitySubType ID="AIR_DEFENSE_MISSILE_LIGHT_TLAR" Label="Light, Light Transporter-Launcher and Radar (TLAR)" Graphic="15111102.svg" Icon="FULL_OCTAGON">
+            <EntitySubType ID="AIR_DEFENSE_MISSILE_LIGHT_TLAR" Label="Light Transporter-Launcher and Radar (TLAR)" Graphic="15111102.svg" Icon="FULL_OCTAGON">
               <EntitySubTypeCode>
                 <DigitOne>0</DigitOne>
                 <DigitTwo>2</DigitTwo>
               </EntitySubTypeCode>
             </EntitySubType>
-            <EntitySubType ID="AIR_DEFENSE_MISSILE_LIGHT_TELAR" Label="Light, Light Tactical Landing Approach Radar (TELAR)" Graphic="15111103.svg" Icon="FULL_OCTAGON">
+            <EntitySubType ID="AIR_DEFENSE_MISSILE_LIGHT_TELAR" Label="Light Tactical Landing Approach Radar (TELAR)" Graphic="15111103.svg" Icon="FULL_OCTAGON">
               <EntitySubTypeCode>
                 <DigitOne>0</DigitOne>
                 <DigitTwo>3</DigitTwo>
@@ -289,13 +289,13 @@
                 <DigitTwo>4</DigitTwo>
               </EntitySubTypeCode>
             </EntitySubType>
-            <EntitySubType ID="AIR_DEFENSE_MISSILE_MEDIUM_TLAR" Label="Medium, TLAR" Graphic="15111105.svg" Icon="FULL_OCTAGON">
+            <EntitySubType ID="AIR_DEFENSE_MISSILE_MEDIUM_TLAR" Label="Medium TLAR" Graphic="15111105.svg" Icon="FULL_OCTAGON">
               <EntitySubTypeCode>
                 <DigitOne>0</DigitOne>
                 <DigitTwo>5</DigitTwo>
               </EntitySubTypeCode>
             </EntitySubType>
-            <EntitySubType ID="AIR_DEFENSE_MISSILE_MEDIUM_TELAR" Label="Medium, TELAR Air Defense Missile Launcher" Graphic="15111106.svg" Icon="FULL_OCTAGON">
+            <EntitySubType ID="AIR_DEFENSE_MISSILE_MEDIUM_TELAR" Label="Medium TELAR Air Defense Missile Launcher" Graphic="15111106.svg" Icon="FULL_OCTAGON">
               <EntitySubTypeCode>
                 <DigitOne>0</DigitOne>
                 <DigitTwo>6</DigitTwo>
@@ -307,13 +307,13 @@
                 <DigitTwo>7</DigitTwo>
               </EntitySubTypeCode>
             </EntitySubType>
-            <EntitySubType ID="AIR_DEFENSE_MISSILE_HEAVY_TLAR" Label="Heavy, TLAR" Graphic="15111108.svg" Icon="FULL_OCTAGON">
+            <EntitySubType ID="AIR_DEFENSE_MISSILE_HEAVY_TLAR" Label="Heavy TLAR" Graphic="15111108.svg" Icon="FULL_OCTAGON">
               <EntitySubTypeCode>
                 <DigitOne>0</DigitOne>
                 <DigitTwo>8</DigitTwo>
               </EntitySubTypeCode>
             </EntitySubType>
-            <EntitySubType ID="AIR_DEFENSE_MISSILE_HEAVY_TELAR" Label="Heavy, TELAR" Graphic="15111109.svg" Icon="FULL_OCTAGON">
+            <EntitySubType ID="AIR_DEFENSE_MISSILE_HEAVY_TELAR" Label="Heavy TELAR" Graphic="15111109.svg" Icon="FULL_OCTAGON">
               <EntitySubTypeCode>
                 <DigitOne>0</DigitOne>
                 <DigitTwo>9</DigitTwo>
@@ -1560,7 +1560,7 @@
     </LegacySymbol>
     <LegacySymbol ID="WEAPON_SYSTEM_DIRECT_FIRE_GUN_DIRECT_FIRE_GUN_LIGHT_SELF_SYM" Label="S*GPEWDLS-*****" Remarks="Retired">
       <LegacyFunctionCode Name="2525C">EWDLS-</LegacyFunctionCode>
-      <LegacyEntity ID="WEAPON_SYSTEM_DIRECT_FIRE_GUN_DIRECT_FIRE_GUN_LIGHT_SELF_LE" Label="WAR.GRDTRK.EQT.WPN.DFG.LIT.SPD" Graphic="S-G-EWDLS-.svg">
+      <LegacyEntity ID="WEAPON_SYSTEM_DIRECT_FIRE_GUN_DIRECT_FIRE_GUN_LIGHT_SELF_LE" Label="WAR.GRDTRK.EQT.WPN.DFG.LIT.SPD" LabelAlias="Weapon/Weapon System : Direct Fire Gun : Self Propelled : Light" Graphic="S-G-EWDLS-.svg">
         <LegacyFunctionCode Name="2525C">EWDLS-</LegacyFunctionCode>
       </LegacyEntity>
     </LegacySymbol>
@@ -1569,7 +1569,7 @@
     </LegacySymbol>
     <LegacySymbol ID="WEAPON_SYSTEM_DIRECT_FIRE_GUN_DIRECT_FIRE_GUN_MEDIUM_SELF_SYM" Label="S*GPEWDMS-*****" Remarks="Retired">
       <LegacyFunctionCode Name="2525C">EWDMS-</LegacyFunctionCode>
-      <LegacyEntity ID="WEAPON_SYSTEM_DIRECT_FIRE_GUN_DIRECT_FIRE_GUN_MEDIUM_SELF_LE" Label="WAR.GRDTRK.EQT.WPN.DFG.MDM.SPD" Graphic="S-G-EWDMS-.svg">
+      <LegacyEntity ID="WEAPON_SYSTEM_DIRECT_FIRE_GUN_DIRECT_FIRE_GUN_MEDIUM_SELF_LE" Label="WAR.GRDTRK.EQT.WPN.DFG.MDM.SPD" LabelAlias="Weapon/Weapon System : Direct Fire Gun : Self Propelled : Medium" Graphic="S-G-EWDMS-.svg">
         <LegacyFunctionCode Name="2525C">EWDMS-</LegacyFunctionCode>
       </LegacyEntity>
     </LegacySymbol>
@@ -1578,7 +1578,7 @@
     </LegacySymbol>
     <LegacySymbol ID="WEAPON_SYSTEM_DIRECT_FIRE_GUN_HEAVY_SELF_SYM" Label="S*GPEWDHS-*****" Remarks="Retired">
       <LegacyFunctionCode Name="2525C">EWDHS-</LegacyFunctionCode>
-      <LegacyEntity ID="WEAPON_SYSTEM_DIRECT_FIRE_GUN_HEAVY_SELF_LE" Label="WAR.GRDTRK.EQT.WPN.DFG.HVY.SPD" Graphic="S-G-EWDHS-.svg">
+      <LegacyEntity ID="WEAPON_SYSTEM_DIRECT_FIRE_GUN_HEAVY_SELF_LE" Label="WAR.GRDTRK.EQT.WPN.DFG.HVY.SPD" LabelAlias="Weapon/Weapon System : Direct Fire Gun : Self Propelled : Heavy" Graphic="S-G-EWDHS-.svg">
         <LegacyFunctionCode Name="2525C">EWDHS-</LegacyFunctionCode>
       </LegacyEntity>
     </LegacySymbol>
@@ -1591,27 +1591,27 @@
     <LegacySymbol ID="WEAPON_SYSTEM_HOWITZER_HOWITZER_LIGHT_SYM" Label="S*GPEWHL--*****" EntityID="WEAPON_SYSTEM" EntityTypeID="HOWITZER" EntitySubTypeID="HOWITZER_LIGHT">
       <LegacyFunctionCode Name="2525C">EWHL--</LegacyFunctionCode>
     </LegacySymbol>
-    <LegacySymbol ID="WEAPON_SYSTEM_HOWITZER_HOWITZER_LIGHT_SELF_SYM" Label="S*GPEWHLS" Remarks="Retired">
+    <LegacySymbol ID="WEAPON_SYSTEM_HOWITZER_HOWITZER_LIGHT_SELF_SYM" Label="S*GPEWHLS-*****" Remarks="Retired">
       <LegacyFunctionCode Name="2525C">EWHLS-</LegacyFunctionCode>
-      <LegacyEntity ID="WEAPON_SYSTEM_HOWITZER_HOWITZER_LIGHT_SELF_LE" Label="WAR.GRDTRK.EQT.WPN.HOW.LIT.SPD" Graphic="S-G-EWHLS-.svg">
+      <LegacyEntity ID="WEAPON_SYSTEM_HOWITZER_HOWITZER_LIGHT_SELF_LE" Label="WAR.GRDTRK.EQT.WPN.HOW.LIT.SPD" LabelAlias="Weapon/Weapon System : Howitzer : Self Propelled : Light" Graphic="S-G-EWHLS-.svg">
         <LegacyFunctionCode Name="2525C">EWHLS-</LegacyFunctionCode>
       </LegacyEntity>
     </LegacySymbol>
     <LegacySymbol ID="WEAPON_SYSTEM_HOWITZER_HOWITZER_MEDIUM_SYM" Label="S*GPEWHM--*****" EntityID="WEAPON_SYSTEM" EntityTypeID="HOWITZER" EntitySubTypeID="HOWITZER_MEDIUM">
       <LegacyFunctionCode Name="2525C">EWHM--</LegacyFunctionCode>
     </LegacySymbol>
-    <LegacySymbol ID="WEAPON_SYSTEM_HOWITZER_HOWITZER_MEDIUM_SELF_SYM" Label="S*GPEWHMS" Remarks="Retired">
+    <LegacySymbol ID="WEAPON_SYSTEM_HOWITZER_HOWITZER_MEDIUM_SELF_SYM" Label="S*GPEWHMS-*****" Remarks="Retired">
       <LegacyFunctionCode Name="2525C">EWHMS-</LegacyFunctionCode>
-      <LegacyEntity ID="WEAPON_SYSTEM_HOWITZER_HOWITZER_MEDIUM_SELF_LE" Label="WAR.GRDTRK.EQT.WPN.HOW.MDM.SPD" Graphic="S-G-EWHMS-.svg">
+      <LegacyEntity ID="WEAPON_SYSTEM_HOWITZER_HOWITZER_MEDIUM_SELF_LE" Label="WAR.GRDTRK.EQT.WPN.HOW.MDM.SPD" LabelAlias="Weapon/Weapon System : Howitzer : Self Propelled : Medium" Graphic="S-G-EWHMS-.svg">
         <LegacyFunctionCode Name="2525C">EWHMS-</LegacyFunctionCode>
       </LegacyEntity>
     </LegacySymbol>
     <LegacySymbol ID="WEAPON_SYSTEM_HOWITZER_HOWITZER_HEAVY_SYM" Label="S*GPEWHH--*****" EntityID="WEAPON_SYSTEM" EntityTypeID="HOWITZER" EntitySubTypeID="HOWITZER_HEAVY">
       <LegacyFunctionCode Name="2525C">EWHH--</LegacyFunctionCode>
     </LegacySymbol>
-    <LegacySymbol ID="WEAPON_SYSTEM_HOWITZER_HOWITZER_HEAVY_SELF_SYM" Label="S*GPEWHHS" Remarks="Retired">
+    <LegacySymbol ID="WEAPON_SYSTEM_HOWITZER_HOWITZER_HEAVY_SELF_SYM" Label="S*GPEWHHS-*****" Remarks="Retired">
       <LegacyFunctionCode Name="2525C">EWHHS-</LegacyFunctionCode>
-      <LegacyEntity ID="WEAPON_SYSTEM_HOWITZER_HOWITZER_HEAVY_SELF_LE" Label="WAR.GRDTRK.EQT.WPN.HOW.HVY.SPD" Graphic="S-G-EWHHS-.svg">
+      <LegacyEntity ID="WEAPON_SYSTEM_HOWITZER_HOWITZER_HEAVY_SELF_LE" Label="WAR.GRDTRK.EQT.WPN.HOW.HVY.SPD" LabelAlias="Weapon/Weapon System : Howitzer : Self Propelled : Heavy" Graphic="S-G-EWHHS-.svg">
         <LegacyFunctionCode Name="2525C">EWHHS-</LegacyFunctionCode>
       </LegacyEntity>
     </LegacySymbol>
@@ -1621,24 +1621,22 @@
     <LegacySymbol ID="WEAPON_SYSTEM_AIR_DEFENSE_MISSILE_LAUNCHER_SYM" Label="S*GPEWMA--*****" EntityID="WEAPON_SYSTEM" EntityTypeID="AIR_DEFENSE_MISSILE_LAUNCHER">
       <LegacyFunctionCode Name="2525C">EWMA--</LegacyFunctionCode>
       <LegacyFunctionCode Name="2525C">EWMAT-</LegacyFunctionCode>
-	  <LegacyEntity ID="WEAPON_SYSTEM_AIR_DEFENSE_MISSILE_LAUNCHER_LE" Label="WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.THT" Graphic="S-G-EWMA--.svg">
-		<LegacyFunctionCode Name="2525C">EWMA--</LegacyFunctionCode>
+	    <LegacyEntity ID="WEAPON_SYSTEM_AIR_DEFENSE_MISSILE_LAUNCHER_LE" Label="WAR.GRDTRK.EQT.WPN.MSLL.ADFAD" Graphic="S-G-EWMA--.svg">
+		    <LegacyFunctionCode Name="2525C">EWMA--</LegacyFunctionCode>
+	    </LegacyEntity>
+	    <LegacyEntity ID="WEAPON_SYSTEM_AIR_DEFENSE_MISSILE_LAUNCHER_THEATER_LE" Label="WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.THT" LabelAlias="Weapon/Weapon System : Air Defense Missile Launcher : Theater" Graphic="S-G-EWMAT-.svg">
         <LegacyFunctionCode Name="2525C">EWMAT-</LegacyFunctionCode>
-	  </LegacyEntity>
-	  <LegacyEntity ID="WEAPON_SYSTEM_AIR_DEFENSE_MISSILE_LAUNCHER_LE" Label="WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.THT" Graphic="S-G-EWMAT-.svg">
-		<LegacyFunctionCode Name="2525C">EWMA--</LegacyFunctionCode>
-        <LegacyFunctionCode Name="2525C">EWMAT-</LegacyFunctionCode>
-	  </LegacyEntity>
+	    </LegacyEntity>
     </LegacySymbol>
     <LegacySymbol ID="WEAPON_SYSTEM_AIR_DEFENSE_MISSILE_LAUNCHER_TLAR_SYM" Label="S*GPEWMATR*****" Remarks="Retired">
       <LegacyFunctionCode Name="2525C">EWMATR</LegacyFunctionCode>
-      <LegacyEntity ID="WEAPON_SYSTEM_AIR_DEFENSE_MISSILE_LAUNCHER_TLAR_LE" Label="WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.THT.TLAR" Graphic="S-G-EWMATR.svg">
+      <LegacyEntity ID="WEAPON_SYSTEM_AIR_DEFENSE_MISSILE_LAUNCHER_TLAR_LE" Label="WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.THT.TLAR" LabelAlias="Weapon/Weapon System : Air Defense Missile Launcher : Theater : TLAR" Graphic="S-G-EWMATR.svg">
         <LegacyFunctionCode Name="2525C">EWMATR</LegacyFunctionCode>
       </LegacyEntity>
     </LegacySymbol>
     <LegacySymbol ID="WEAPON_SYSTEM_AIR_DEFENSE_MISSILE_LAUNCHER_TELAR_SYM" Label="S*GPEWMATE*****" Remarks="Retired">
       <LegacyFunctionCode Name="2525C">EWMATE</LegacyFunctionCode>
-      <LegacyEntity ID="WEAPON_SYSTEM_AIR_DEFENSE_MISSILE_LAUNCHER_TELAR_LE" Label="WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.THT.TELAR" Graphic="S-G-EWMATE.svg">
+      <LegacyEntity ID="WEAPON_SYSTEM_AIR_DEFENSE_MISSILE_LAUNCHER_TELAR_LE" Label="WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.THT.TELAR" LabelAlias="Weapon/Weapon System : Air Defense Missile Launcher : Theater : TELAR" Graphic="S-G-EWMATE.svg">
         <LegacyFunctionCode Name="2525C">EWMATE</LegacyFunctionCode>
       </LegacyEntity>
     </LegacySymbol>
@@ -1884,7 +1882,7 @@
     </LegacySymbol>
     <LegacySymbol ID="CIVILIAN_VEHICLE_GROUND_SYM" Label="S*GPEVC---*****" Remarks="Retired">
       <LegacyFunctionCode Name="2525C">EVC---</LegacyFunctionCode>
-      <LegacyEntity ID="CIVILIAN_VEHICLE_GROUND_LE" Label="WAR.GRDTRK.EQT.GRDVEH.CVLVEH" Graphic="S-G-EVC---.svg">
+      <LegacyEntity ID="CIVILIAN_VEHICLE_GROUND_LE" Label="WAR.GRDTRK.EQT.GRDVEH.CVLVEH" LabelAlias="Civilian Vehicle" Graphic="S-G-EVC---.svg">
         <LegacyFunctionCode Name="2525C">EVC---</LegacyFunctionCode>
       </LegacyEntity>
     </LegacySymbol>
@@ -1982,37 +1980,37 @@
       <LegacyFunctionCode Name="2525C" SchemaOverride="O" DimensionOverride="I">D-----</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="LAW_ENFORCEMENT_SYM" Label="E*OPDB----*****" EntityID="LAW_ENFORCEMENT">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">DB----</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">DB----</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="LAW_ENFORCEMENT_BUREAU_ALCOHOL_TOBACCO_FIREARMS_EXPLOSIVES_ATF_SYM" Label="E*OPDDB---*****" EntityID="LAW_ENFORCEMENT" EntityTypeID="BUREAU_ALCOHOL_TOBACCO_FIREARMS_EXPLOSIVES_ATF">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">DDB---</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">DDB---</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="LAW_ENFORCEMENT_BORDER_PATROL_SYM" Label="E*OPDEB---*****" EntityID="LAW_ENFORCEMENT" EntityTypeID="BORDER_PATROL">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">DEB---</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">DEB---</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="LAW_ENFORCEMENT_CUSTOMS_SERVICE_SYM" Label="E*OPDFB---*****" EntityID="LAW_ENFORCEMENT" EntityTypeID="CUSTOMS_SERVICE">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">DFB---</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">DFB---</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="LAW_ENFORCEMENT_DRUG_ENFORCEMENT_ADMINISTRATION_DEA_SYM" Label="E*OPDGB---*****" EntityID="LAW_ENFORCEMENT" EntityTypeID="DRUG_ENFORCEMENT_ADMINISTRATION_DEA">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">DGB---</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">DGB---</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="LAW_ENFORCEMENT_DEPARTMENT_OF_JUSTICE_DOJ_SYM" Label="EFOPDHB---*****" EntityID="LAW_ENFORCEMENT" EntityTypeID="DEPARTMENT_OF_JUSTICE_DOJ">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">DHB---</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">DHB---</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="LAW_ENFORCEMENT_FEDERAL_BUREAU_INVESTIGATION_FBI_SYM" Label="EFOPDIB---*****" EntityID="LAW_ENFORCEMENT" EntityTypeID="FEDERAL_BUREAU_INVESTIGATION_FBI">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">DIB---</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">DIB---</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="LAW_ENFORCEMENT_POLICE_SYM" Label="EFOPDJB---*****" EntityID="LAW_ENFORCEMENT" EntityTypeID="POLICE">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">DJB---</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">DJB---</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="LAW_ENFORCEMENT_UNITED_STATES_SECRET_SERVICE_USSS_SYM" Label="EFOPDLB---*****" EntityID="LAW_ENFORCEMENT" EntityTypeID="UNITED_STATES_SECRET_SERVICE_USSS">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">DLB---</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">DLB---</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="LAW_ENFORCEMENT_TRANSPORTATION_SECURITY_ADMINISTRATION_TSA_SYM" Label="EFOPDMB---*****" EntityID="LAW_ENFORCEMENT" EntityTypeID="TRANSPORTATION_SECURITY_ADMINISTRATION_TSA">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">DMB---</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">DMB---</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="LAW_ENFORCEMENT_US_MARSHALS_SERVICE_SYM" Label="EFOPDOB---*****" EntityID="LAW_ENFORCEMENT" EntityTypeID="US_MARSHALS_SERVICE">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">DOB---</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">DOB---</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="PACK_ANIMALS_SYM" Label="S*GPEVM---*****" EntityID="PACK_ANIMALS">
       <LegacyFunctionCode Name="2525C">EVM---</LegacyFunctionCode>
@@ -2042,10 +2040,10 @@
       <LegacyFunctionCode Name="2525C">EXL---</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="OTHER_EQUIPMENT_EMERGENCY_MEDICAL_OPERATION_SYM" Label="E*OPAB----*****" EntityID="OTHER_EQUIPMENT" EntityTypeID="EMERGENCY_MEDICAL_OPERATION">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">AB----</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">AB----</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="OTHER_EQUIPMENT_EMERGENCY_MEDICAL_OPERATION_MEDICAL_EVACUATION_HELICOPTER_SYM" Label="E*OPAF----*****" EntityID="OTHER_EQUIPMENT" EntityTypeID="EMERGENCY_MEDICAL_OPERATION" EntitySubTypeID="MEDICAL_EVACUATION_HELICOPTER">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">AF----</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">AF----</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="LAND_MINES_LAND_MINE_SYM" Label="S*GPEXM---*****" EntityID="LAND_MINES" EntityTypeID="LAND_MINE">
       <LegacyFunctionCode Name="2525C">EXM---</LegacyFunctionCode>
@@ -2057,7 +2055,7 @@
       <LegacyFunctionCode Name="2525C">EXMC--</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="LAND_MINES_IMPROVISED_EXPLOSIVES_DEVICE_IED_SYM" Label="S*GPEXI---*****" EntityID="LAND_MINES" EntityTypeID="IMPROVISED_EXPLOSIVES_DEVICE_IED">
-      <LegacyFunctionCode Name="2525C">EXI---</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" Description="USAS CS 11-12">EXI---</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="LAND_MINES_LESS_THAN_LETHAL_SYM" Label="S*GPEXML--*****" EntityID="LAND_MINES" EntityTypeID="LESS_THAN_LETHAL">
       <LegacyFunctionCode Name="2525C">EXML--</LegacyFunctionCode>
@@ -2066,19 +2064,19 @@
       <LegacyFunctionCode Name="2525C">ES----</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="SENSORS_SENSOR_BIOLOGICAL_MOD_SYM" Label="E*OPEA----*****" EntityID="SENSORS" EntityTypeID="SENSOR" ModifierOneID="BIOLOGICAL_MOD">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">EA----</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">EA----</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="SENSORS_SENSOR_CHEMICAL_MOD_SYM" Label="E*OPEB----*****" EntityID="SENSORS" EntityTypeID="SENSOR" ModifierOneID="CHEMICAL_MOD">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">EB----</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">EB----</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="SENSORS_SENSOR_INTRUSION_MOD_SYM" Label="E*OPEC----*****" EntityID="SENSORS" EntityTypeID="SENSOR" ModifierOneID="INTRUSION_MOD">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">EC----</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">EC----</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="SENSORS_SENSOR_NUCLEAR_MOD_SYM" Label="E*OPED----*****" EntityID="SENSORS" EntityTypeID="SENSOR" ModifierOneID="NUCLEAR_MOD">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">ED----</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">ED----</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="SENSORS_SENSOR_RADIOLOGICAL_MOD_SYM" Label="E*OPEE----*****" EntityID="SENSORS" EntityTypeID="SENSOR" ModifierOneID="RADIOLOGICAL_MOD">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">EE----</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">EE----</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="SENSORS_SENSOR_EMPLACED_SYM" Label="S*GPESE---*****" EntityID="SENSORS" EntityTypeID="SENSOR_EMPLACED">
       <LegacyFunctionCode Name="2525C">ESE---</LegacyFunctionCode>
@@ -2087,13 +2085,13 @@
       <LegacyFunctionCode Name="2525C">ESR---</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="EMERGENCY_OPERATION_SYM" Label="E*OPBB----*****" EntityID="EMERGENCY_OPERATION">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">BB----</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">BB----</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="EMERGENCY_OPERATION_AMBULANCE_SYM" Label="E*OPAE----*****" EntityID="EMERGENCY_OPERATION" EntityTypeID="AMBULANCE">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">AE----</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">AE----</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="EMERGENCY_OPERATION_FIRE_FIGHTING_FIRE_PROTECTION_SYM" Label="E*OPCB----*****" EntityID="EMERGENCY_OPERATION" EntityTypeID="FIRE_FIGHTING_FIRE_PROTECTION">
-      <LegacyFunctionCode Name="2525C" SchemaOverride="E" DimensionOverride="O">CB----</LegacyFunctionCode>
+      <LegacyFunctionCode Name="2525C" LimitUseTo="2525C" SchemaOverride="E" DimensionOverride="O">CB----</LegacyFunctionCode>
     </LegacySymbol>
     <LegacySymbol ID="EQUIPMENT_SYM" Label="S*GPE-----*****" EntityID="UNSPECIFIED">
       <LegacyFunctionCode Name="2525C">E-----</LegacyFunctionCode>

@@ -19,7 +19,7 @@ We give the design some initial thought and have a big picture in mind, and then
 For this project, in the following ten frequently asked design questions, we consider and answer the what, how, and why of JMSML.
 
 #### What problem are we solving?
-DISA's Symbology Standards Management Committee (SSMC) and NATO's Joint Symbology Panel (JSP), have both specified a need for an XML representation of the contents of MIL-STD 2525 and NATO APP-6, for the express purposes of:
+DISA's Symbology Standards Management Committee (SSMC) and NATO's Joint Symbology Panel (JSP), have both specified a need for an XML representation of the contents of MIL-STD 2525, for the express purposes of:
 	
 - Aiding in the configuration management (CM) of these standards, by automating/simplifying the production of the documentation for these standards and provide a means to track and version control the evolution of these standards.
 - Providing implementors with a machine-readable form of the contents of these standards, so they can extract the information they need to implement military symbology in their own systems.
@@ -33,8 +33,8 @@ Therefore, this project is intended to be a collaborative community effort to pr
 #### What is our high-level plan for solving the problem?
 Our high level plan for solving this problem can be broken down into four key steps:
 	
-- Develop an XML schema (XSD) for the fundamental contents of MIL-STD 2525D (and by extension, NATO APP-6(C)).
-- Populate, using said schema,  XML instance data to include all the valid components of a military symbol, that is compatible with the tenets set forth in MIL-STD 2525D (and by extension, NATO APP-6(C)), including all of the symbol sets set forth in those standards.
+- Develop an XML schema (XSD) for the fundamental contents of MIL-STD 2525D.
+- Populate, using said schema,  XML instance data to include all the valid components of a military symbol, that is compatible with the tenets set forth in MIL-STD 2525D, including all of the symbol sets set forth in those standards.
 - Develop a C# .Net API that demonstrates one means of extracting information from that XML instance data, including unit tests to validate proper operation of that information extraction, and tools and sample applications that facilitate an implementor extracting what he/she needs from the XML data.
 - Develop, in time, a set of stylesheets (XSLT) files that will support the formatting of the contents of the XML data into human readable pages.  XSLT (Extensible Stylesheet Language Transformations) is a language for transforming XML documents into other XML documents, or other objects such as HTML for web pages, plain text or into XSL Formatting Objects which can then be converted to PDF, PostScript, and PNG.
 
@@ -80,7 +80,7 @@ What we propose here is the best way to deliver a solution that:
 #### How useful is this solution? 
 Any assessment of usefulness is extremely subjective.  There are necessarily two considerations that need to be made when asking this question.  Useful to who and useful in what time frame?
 
-Clearly, usefulness will increase as the above goals are fully achieved.  The goals stated earlier are goals because no current system in the hands of the SSMC or JSP can currently meet them.  There are thousands of symbol components defined in 2525 and APP-6.  Instantiating that data in XML will take some time.  This library of military symbology information will therefore become more useful as that data is added to the system, and the project nears its intended completion.
+Clearly, usefulness will increase as the above goals are fully achieved.  The goals stated earlier are goals because no current system in the hands of the SSMC or JSP can currently meet them.  There are thousands of symbol components defined in 2525.  Instantiating that data in XML will take some time.  This library of military symbology information will therefore become more useful as that data is added to the system, and the project nears its intended completion.
 
 Once in place the SSMC and JSP will share a common library of symbology information, that in turn can be used to generate large portions of a printed document.  The manual creation/editing of that document today costs the US taxpayers a lot of money as it is very time consuming.  While military symbol implementors wait for each iteration of these standards to be completed, warfighters in need of the symbols in the newest versions of these standards must wait for those implementors to finish their jobs.  Any process that speeds all or part of that military symbology development and delivery cycle up, and reduces the chance that any two systems will implement the same standards differently, is useful and valuable.
 
@@ -95,12 +95,12 @@ Making the standard and data products the SSMC and JSP produce more relevant, mo
 
 This helps justify and validate the existence of these two committees, in the face of serious opposition from some government quarters.
 
-Which in turn insures the continued viability and longevity of MIL-STD 2525 and NATO APP-6.  Without which there would be no agreed joint military symbology standards, which would in turn lead to issues with C2 system interoperability and the accurate and consistent communication and depiction of tomorrow's tactical pictures.
+Which in turn insures the continued viability and longevity of MIL-STD 2525.  Without which there would be no agreed joint military symbology standards, which would in turn lead to issues with C2 system interoperability and the accurate and consistent communication and depiction of tomorrow's tactical pictures.
  
 #### Are there any other dependencies or risks to consider?
 There are no technical dependencies or risks involved in completing this project, as envisioned.  XML is a stable and dependable data format and the tools to parse it are legion.  
 
-What's more, MIL-STD 2525 is nearing the end of a major release (2525D) and NATO APP-6(C) will soon evolve into APP-6(D), as it absorbs all of the symbology encoding that has laboriously gone in to 2525D.  Therefore, a subsequent release of these standards, that might reflect significant change, is far off.  It is hoped that the SSMC and JSP can be convinced to adopt use and maintenance of this information as they begin development of the next (Change 1) versions of these two standards.
+What's more, MIL-STD 2525 is nearing the end of a major release (2525D) will soon evolve into APP-6(D), as it absorbs all of the symbology encoding that has laboriously gone in to 2525D.  Therefore, a subsequent release of these standards, that might reflect significant change, is far off.  It is hoped that the SSMC and JSP can be convinced to adopt use and maintenance of this information as they begin development of the next (Change 1) versions of these two standards.
 
 The only real risk in completing the goals of this project are more organizational/political.  The efficacy of this effort may languish over time if the SSMC and JSP do not adopt ownership of it, or contribute in maintaining it at the very least.  Leaving the community to maintain it from version to version of these standards would then become dependent on implementors or other government or commercial consumers of it, those who would find it useful enough to keep up for their own purposes.
 

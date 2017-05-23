@@ -44,10 +44,25 @@ namespace JointMilitarySymbologyLibrary
         {
             string result = "";
             string graphic = "";
+            string suffix = "";
 
             _notes = "";
 
-            string graphicPath = _configHelper.GetPath("JMSML_2525C", FindEnum.Find2525C);
+            string graphicPath = "";
+            switch (code.LimitUseTo)
+            {
+                case "2525Bc2":
+                    graphicPath = _configHelper.GetPath("JMSML_2525BC2", FindEnum.Find2525BC2);
+                    suffix = "(2525B)";
+                    break;
+                case "2525C":
+                    graphicPath = _configHelper.GetPath("JMSML_2525C", FindEnum.Find2525C);
+                    suffix = "(2525C)";
+                    break;
+                default:
+                    graphicPath = _configHelper.GetPath("JMSML_2525C", FindEnum.Find2525C);
+                    break;
+            }
 
             if (entity.Graphic != "" && entity.Icon != IconType.FULL_FRAME)
                 graphic = entity.Graphic;
@@ -67,7 +82,7 @@ namespace JointMilitarySymbologyLibrary
 
             result = result + itemRootedPath;
             result = result + "," + Convert.ToString(_configHelper.PointSize);
-            result = result + "," + id;
+            result = result + "," + BuildEntityItemName(sig, ss, symbol, entity, code); 
             result = result + "," + BuildEntityItemCategory(ss, iType, geometryType);
             result = result + "," + BuildEntityItemTags(sig, ss, symbol, entity, code);
             result = result + "," + id;
