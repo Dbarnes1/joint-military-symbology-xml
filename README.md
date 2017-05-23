@@ -9,9 +9,7 @@ The purpose of defining this schema and populating its associated instance data 
 
 In providing this schema, files of instance data, and sample C# code to navigate same, it is hoped that future defense and intelligence systems will be engineered to take advantage of this technology and, in so doing, accelerate the delivery of new military symbology, reflected in updates to these standards, to warfighters.
 
-**Repo Owner: Andy "Dr. MOLE" Bouffard ([abouffard](https://github.com/abouffard))**
-
-**Co-Secondary Repo Owners: "Master Symbologists" Joe Bayles ([joebayles](https://github.com/joebayles)) and Daniel Barnes ([Dbarnes1](https://github.com/Dbarnes1))**
+**Repo Owners: Joe Bayles ([joebayles](https://github.com/joebayles)) and Daniel Barnes ([Dbarnes1](https://github.com/Dbarnes1))**
 
 ![Image of Joint Military Symbology XML]( ScreenShot.JPG )
 
@@ -163,11 +161,11 @@ Implemented change proposals (CPs) and other major enhancements will be identifi
 
 __Projects using this Repo__
 
-|Project|Repository|Website|
-|---|---|---|
-|ArcGIS Pro/Runtime/Server|https://github.com/Esri/military-features-data||
-|Joint military symbology explorer|https://github.com/kjellmf/military-symbology-explorer|http://kjellmf.github.io/military-symbology-explorer|
-|milsymbol 2525D Implementation|https://github.com/spatialillusions/milsymbol|http://spatialillusions.com/milsymbol/docs/milsymbol-2525d.html|
+|Project|Repository|
+|---|---|
+|ArcGIS Pro/Runtime/Server|https://github.com/Esri/military-features-data |
+|Joint military symbology explorer|https://github.com/kjellmf/military-symbology-explorer |
+|milsymbol 2525D Implementation|https://github.com/spatialillusions/milsymbol |
 
 __Other Standards Referenced by this Repo__
 
